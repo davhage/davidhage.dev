@@ -2,8 +2,34 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px red solid;
+}
+
+html, body {
+    height: 100vh;
 }
 
 body {
     background-color: rgb(35, 34, 34);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+.big {
+    height: 10rem;
+    width: 50rem;
+}
+
+.square {
+    height: 10rem;
+    width: 25rem;
 }

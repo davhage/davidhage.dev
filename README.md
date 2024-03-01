@@ -1,1 +1,1 @@
-hello-git
+This project is pretended to be my personal web page.

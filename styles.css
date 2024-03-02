@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px red solid;
+    /* border: 1px red solid; */
 }
 
 html {
@@ -39,22 +39,19 @@ button {
 
 main {
     height: 95%;
+    margin: 0 auto;
+    width: 65rem;
 }
 
 .data {
     height: 45%;
-    width: 100vw;
 }
 
 .data, ul {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-}
-
-.name {
-    margin-right: 3rem;
+    justify-content: space-between;
 }
 
 h1 {
@@ -74,6 +71,7 @@ img {
 
 nav {
     height: 5%;
+    margin-top: 2rem;
 }
 
 ul {
@@ -84,4 +82,20 @@ li {
     list-style-type: none;
     margin-right: 3rem;
     text-decoration: none;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.resume {
+    font-size: 1.6rem;
+    margin-top: 2rem;
 }
